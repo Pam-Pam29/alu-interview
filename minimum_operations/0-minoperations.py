@@ -1,19 +1,13 @@
 #!/usr/bin/python3
-
 def minOperations(n):
     """
-    Calculates the minimum number of operations required to reach a string of length n.
-
-    The operations allowed are:
-    - Append a character to the end of the string (cost: 1 operation)
-    - Copy the entire string and append it to the end (cost: 1 operation)
+    Calculates the fewest number of operations needed to result in exactly n H characters in a file.
 
     Args:
-        n (int): The length of the target string.
+        n (int): The number of H characters to achieve.
 
     Returns:
-        int: The minimum number of operations required to reach a string of length n.
-
+        int: The minimum number of operations required to reach n H characters.
     """
     operations = 0
     current_chars = 1
