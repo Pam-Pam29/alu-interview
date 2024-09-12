@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 def minOperations(n):
     """
     Calculates the minimum number of operations required to reach a string of length n.
