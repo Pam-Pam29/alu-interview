@@ -3,18 +3,19 @@
 """
 Module for calculating the amount of rainwater retained between walls.
 
-This module contains a single function, `rain`, which calculates the total amount
-of rainwater retained between a list of walls.
+This module contains a single function, `rain`, which calculates  
+the total amount of rainwater retained between a list of walls.
 
 Author: Victoria Fakunle
 """
+
 
 def rain(walls):
     """
     Calculate the amount of rainwater retained between walls.
 
     Args:
-        walls (list): A list of non-negative integers representing the heights of walls.
+     walls (list): A list of non-negative integers representing the heights of walls.
 
     Returns:
         int: The total amount of rainwater retained.
