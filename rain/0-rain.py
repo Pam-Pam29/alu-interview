@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def rain(walls):
     """
     Calculate the amount of rainwater retained between walls.
